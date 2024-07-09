@@ -45,4 +45,9 @@ div .coderboy{
     font-size: larger;
     color: rgb(255, 255, 255);
 }
-
+#page2{width: 1140px;
+    height: 1395px;
+    margin: 98px;
+    padding: 106px;
+    background-color: rgb(255, 255, 255);
+}
