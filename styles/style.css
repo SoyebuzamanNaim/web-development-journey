@@ -45,9 +45,68 @@ div .coderboy{
     font-size: larger;
     color: rgb(255, 255, 255);
 }
-#page2{width: 1140px;
-    height: 1395px;
-    margin: 98px;
+#page2{width: 1516px;
+    height: 1955px;
+    margin:  50px 98px;
     padding: 106px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(13, 19, 33, 0.02);
+    
+}
+
+nav p{
+    text-align: center;
+    font-size: 21px;
+    margin-bottom: 63px;
+    opacity: .7;
+}
+
+.why-web{
+    font-weight: 800;
+    font-size: 43px;
+    text-align: center;    
+    margin-bottom: 32px;
+}
+
+.banner{
+    display: flex;
+    justify-content:space-between;
+    padding: 40px;
+    border-radius: 8%;
+    width: 1260px;
+    height: 445px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    margin: 82px;
+   
+    
+}
+.banner-content{display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:flex-start;
+    
+    
+    
+}
+.banner-head{
+width: 680px;
+font-size: 32px;
+color: rgba(13, 19, 33, 0.7);
+
+}
+.banner-body{
+    opacity: 0.7;
+    font-size: 22px;
+
+}
+
+.banner-btn{
+    padding: 17px 20px 16px 27px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 26px;
+}
+img{
+    height: 90%;
+    width: 90%;
 }
