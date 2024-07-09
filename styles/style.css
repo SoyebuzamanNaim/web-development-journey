@@ -7,7 +7,7 @@
 }
 .nav-title{
     font-size: 37px;
-    margin: 62px;
+    margin: 40px;
 }
 #page1{
     background-image: url('../assets/Hero-bg.png');
@@ -18,7 +18,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content:space-between;
+    justify-content:space-around;
     
 }
 
@@ -28,9 +28,21 @@ div .coderboy{
 }
 .title{
     width: 1327px;
-    height: 180px;
+    
     text-align: center;
     font-size: 52px;
     font-weight: 800;
+}
+.subtitle{
+    font-size: 21px;
+    text-align: center;
+}
+.contact-btn{
+    padding: 27px 32px 24px 32px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    font-weight: 600;
+    font-size: larger;
+    color: rgb(255, 255, 255);
 }
 
