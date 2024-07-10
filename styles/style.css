@@ -46,11 +46,12 @@ div .coderboy{
     font-size: larger;
     color: rgb(255, 255, 255);
 }
-#page2{width: 1516px;
+#page2{width: 1520px;
     height: 1955px;
-    margin:  50px 98px;
-    padding: 106px;
+    margin:  100px 98px;
+    padding: 86px;
     background-color: rgba(13, 19, 33, 0.02);
+    
     
 }
 
@@ -115,4 +116,40 @@ img{
 }
 /* Make cursor pointer */
 .pointer{cursor: pointer;
+}
+#page3{
+   
+    margin: 120px 150px 130px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.inspiration{width: 1516px;
+    margin: 0px 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.title-inspi{
+    
+    font-size: 43px;
+    margin-bottom: 32px;
+}
+.title-inspi-sub{
+    
+    width: 1133px;
+    opacity: 0.7;
+    font-size: large;
+    margin-bottom: 64px;
+}
+
+.inspi-vid{
+    
+    margin:  0px 50px;
+    border-radius: 20px;
+    
+    padding: 43px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
 }
