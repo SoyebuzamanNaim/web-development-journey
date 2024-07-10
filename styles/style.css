@@ -210,7 +210,8 @@ color: rgba(13, 19, 33, 0.7);
 }
 
 /* edit learn more */
-a{color: black;}
+a{color: black;
+}
 
 .pointer{
     font-size: 21px;
@@ -305,4 +306,8 @@ font-size: 26px;
 .social-link{
 margin-right: 200px;
 
+}
+
+.social-link img{
+    cursor: pointer;
 }
