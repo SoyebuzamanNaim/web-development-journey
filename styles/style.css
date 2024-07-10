@@ -6,10 +6,12 @@
     margin: 0px;
     cursor:move;
 }
+
 .nav-title{
     font-size: 37px;
     padding: 40px;
 }
+
 #page1{
     background-image: url('../assets/Hero-bg.png');
     background-size: cover;
@@ -27,17 +29,19 @@ div .coderboy{
    height: 320px;
    
 }
+
 .title{
     width: 1327px;
-    
     text-align: center;
     font-size: 52px;
     font-weight: 800;
 }
+
 .subtitle{
     font-size: 21px;
     text-align: center;
 }
+
 .contact-btn{
     padding: 27px 32px 24px 32px;
     border-radius: 8px;
@@ -47,13 +51,12 @@ div .coderboy{
     color: rgb(255, 255, 255);
     cursor: pointer;
 }
+
 #page2{width: 1520px;
     height: 1955px;
     margin:  100px 98px;
     padding: 86px;
-    background-color: rgba(13, 19, 33, 0.02);
-    
-    
+    background-color: rgba(13, 19, 33, 0.02);   
 }
 
 nav p{
@@ -80,27 +83,25 @@ nav p{
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
     margin: 82px;  
 }
-.banner-rev{background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 
+.banner-rev{background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
+
 .banner-content{display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items:flex-start;
-    
-    
-    
+    align-items:flex-start;  
 }
+
 .banner-head{
 width: 680px;
 font-size: 32px;
 color: rgba(13, 19, 33, 0.7);
-
 }
+
 .banner-body{
     opacity: 0.7;
     font-size: 22px;
-
 }
 
 .banner-btn{
@@ -111,21 +112,23 @@ color: rgba(13, 19, 33, 0.7);
     font-size: 26px;
     border-radius: 10px;
 }
+
 .banner img{
     height: 90%;
     width: 90%;
 }
+
 /* Make cursor pointer */
 .pointer{cursor: pointer;
 }
+
 #page3{
    
     margin: 120px 150px 130px;
     display: flex;
-    flex-direction: column;
-    
-    
+    flex-direction: column;  
 }
+
 #page4{
    
     margin: 120px 150px 130px;}
@@ -138,11 +141,13 @@ color: rgba(13, 19, 33, 0.7);
     text-align: center;
     align-items: center;
 }
+
 .title-inspi , .title-target{
     
     font-size: 43px;
     margin-bottom: 32px;
 }
+
 .title-inspi-sub , .title-target-sub{
     
     width: 1133px;
@@ -159,6 +164,7 @@ color: rgba(13, 19, 33, 0.7);
     padding: 43px;
     border: 1px solid rgba(13, 19, 33, 0.2);
 }
+
 /* card section style */
 .parent-skill-card{
     display: flex;
@@ -169,6 +175,7 @@ color: rgba(13, 19, 33, 0.7);
     gap: 32px;
     
 }
+
 .skill-card{
     padding: 53px;
     border-radius: 21px;
@@ -177,34 +184,96 @@ color: rgba(13, 19, 33, 0.7);
     width: 484px;
 
 }
+
 .html-card{
     background: rgba(255, 76, 30, 0.05);
 }
+
 .css-card{
     background: rgba(0, 76, 232, 0.05);
 
 }
+
 .js-card{
     background: rgba(255, 223, 0, 0.05);
 }
+
 .skill-card-title{
     margin-top: 32px;
     margin-bottom: 8px;
 }
+
 .skill-card-subtitle{
     opacity: .7;
     font-size: 21px;
     margin-bottom: 32px;
 }
+
 /* edit learn more */
+a{color: black;}
+
 .pointer{
     font-size: 21px;
     font-weight: 700;
     color: rgb(13, 19, 33);
+    
 }
+
 /* editing page5 */
-#page5 > body{
-    background-image: url('../assets/handshake.jpg');
+.backgroundbottom { background-image: url('../assets/handshake.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1516px;
+    height: 417px;
+    margin: 200px;
+}
 
+/* editing support box */
+.support-box{
+position: static;
+width: 1388px;
+height: 247px;
+display: flex;
+flex-direction: column;
+justify-content:space-between;
+align-items: center;
+padding: 85px 49px;
+}
 
+.need-support{
+    margin-bottom: 22px;
+    font-size: 42px;
+    text-shadow: 2px 2px black;
+    color: rgb(255, 255, 255);
+}
+
+.assist-me{
+    color: rgb(255, 255, 255);
+    opacity: .7;
+    font-size: 21px;
+}
+
+.help-box{
+
+}
+
+.give-advise{
+    cursor:auto;
+    width: 728px;
+    padding: 20px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    font-size: 21px;
+
+}
+
+.submit{
+cursor: pointer;
+border-radius: 10px;
+background: rgb(255, 255, 255);
+padding: 20px 26px 20px 26px;
+font-size: 25px;
+font-weight: 600;
 }
