@@ -4,10 +4,11 @@
 *{
     font-family: "Azeret Mono", monospace;
     margin: 0px;
+    cursor:move;
 }
 .nav-title{
     font-size: 37px;
-    margin: 40px;
+    padding: 40px;
 }
 #page1{
     background-image: url('../assets/Hero-bg.png');
@@ -75,9 +76,10 @@ nav p{
     width: 1260px;
     height: 445px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
-    margin: 82px;
-   
-    
+    margin: 82px;  
+}
+.banner-rev{background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+
 }
 .banner-content{display: flex;
     flex-direction: column;
@@ -110,4 +112,7 @@ color: rgba(13, 19, 33, 0.7);
 img{
     height: 90%;
     width: 90%;
+}
+/* Make cursor pointer */
+.pointer{cursor: pointer;
 }
