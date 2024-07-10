@@ -277,3 +277,32 @@ padding: 20px 26px 20px 26px;
 font-size: 25px;
 font-weight: 600;
 }
+/* edit footer */
+footer{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    width: 1920px;
+    height: 133px;
+    
+}
+
+.end{
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.signature{
+margin-left: 200px;
+font-weight: 600;
+font-size: 26px;
+}
+
+.social-link{
+margin-right: 200px;
+
+}
