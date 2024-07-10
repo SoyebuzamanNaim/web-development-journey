@@ -45,6 +45,7 @@ div .coderboy{
     font-weight: 600;
     font-size: larger;
     color: rgb(255, 255, 255);
+    cursor: pointer;
 }
 #page2{width: 1520px;
     height: 1955px;
@@ -110,7 +111,7 @@ color: rgba(13, 19, 33, 0.7);
     font-size: 26px;
     border-radius: 10px;
 }
-img{
+.banner img{
     height: 90%;
     width: 90%;
 }
@@ -125,19 +126,24 @@ img{
     
     
 }
-.inspiration{width: 1516px;
+#page4{
+   
+    margin: 120px 150px 130px;}
+
+.inspiration , .current-target{
+    width: 1516px;
     margin: 0px 50px;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
 }
-.title-inspi{
+.title-inspi , .title-target{
     
     font-size: 43px;
     margin-bottom: 32px;
 }
-.title-inspi-sub{
+.title-inspi-sub , .title-target-sub{
     
     width: 1133px;
     opacity: 0.7;
@@ -152,4 +158,53 @@ img{
     
     padding: 43px;
     border: 1px solid rgba(13, 19, 33, 0.2);
+}
+/* card section style */
+.parent-skill-card{
+    display: flex;
+    width: 1516px;
+    
+    margin-left:50px;
+    margin-right:50px;
+    gap: 32px;
+    
+}
+.skill-card{
+    padding: 53px;
+    border-radius: 21px;
+    text-align: left;
+    align-self: stretch;
+    width: 484px;
+
+}
+.html-card{
+    background: rgba(255, 76, 30, 0.05);
+}
+.css-card{
+    background: rgba(0, 76, 232, 0.05);
+
+}
+.js-card{
+    background: rgba(255, 223, 0, 0.05);
+}
+.skill-card-title{
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+.skill-card-subtitle{
+    opacity: .7;
+    font-size: 21px;
+    margin-bottom: 32px;
+}
+/* edit learn more */
+.pointer{
+    font-size: 21px;
+    font-weight: 700;
+    color: rgb(13, 19, 33);
+}
+/* editing page5 */
+#page5 > body{
+    background-image: url('../assets/handshake.jpg');
+
+
 }
